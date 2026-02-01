@@ -24,7 +24,7 @@ const HeroSection = () => {
             <div className="animate-fade-up inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary border border-border mb-6">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               <span className="text-sm font-medium text-muted-foreground">
-                Open Source & 100% Free
+                Open Source & Affordable
               </span>
             </div>
 
@@ -36,7 +36,7 @@ const HeroSection = () => {
 
             {/* Subheadline */}
             <p className="animate-fade-up-delay-2 text-lg md:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-4">
-              The <span className="font-semibold text-foreground">$0 alternative</span> to $400 e-ink tablets. 
+              The <span className="font-semibold text-foreground">$250 alternative</span> to $400 e-ink tablets. 
               Write, draw, and organize with a powerful digital canvas.
             </p>
 
@@ -59,7 +59,7 @@ const HeroSection = () => {
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </Button>
               <Button variant="heroOutline" size="xl" className="w-full sm:w-auto" asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/charu6969/Abook.git" target="_blank" rel="noopener noreferrer">
                   <Github className="w-5 h-5" />
                   View on GitHub
                 </a>
@@ -76,7 +76,7 @@ const HeroSection = () => {
               {/* Tablet image */}
               <img
                 src={tabletHero}
-                alt="ABook digital notebook showing handwritten notes and diagrams"
+                alt="Abook digital notebook showing handwritten notes and diagrams"
                 className="relative z-10 w-full max-w-lg mx-auto animate-float drop-shadow-2xl"
               />
               

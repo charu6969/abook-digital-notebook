@@ -32,10 +32,10 @@ const CTASection = () => {
         <div className="max-w-3xl mx-auto text-center">
           {/* Main CTA */}
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Start taking notes for free
+            Start taking notes today
           </h2>
           <p className="text-xl text-background/70 mb-10 max-w-xl mx-auto">
-            Join thousands of students and professionals who've switched to ABook.
+            Join thousands of students and professionals who've switched to Abook.
           </p>
 
           {/* Action buttons */}
@@ -45,7 +45,7 @@ const CTASection = () => {
               className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground"
             >
               <Download className="w-5 h-5" />
-              Download ABook
+              Download Abook
               <ArrowRight className="w-4 h-4" />
             </Button>
             <Button 
@@ -54,7 +54,7 @@ const CTASection = () => {
               className="w-full sm:w-auto border-background/20 text-background hover:bg-background/10"
               asChild
             >
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/charu6969/Abook.git" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5" />
                 View Source
               </a>

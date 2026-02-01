@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-bold text-lg">A</span>
           </div>
-          <span className="font-semibold text-lg text-foreground">ABook</span>
+          <span className="font-semibold text-lg text-foreground">Abook</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -52,7 +52,7 @@ const Navbar = () => {
         {/* CTA Buttons */}
         <div className="hidden md:flex items-center gap-3">
           <Button variant="heroGhost" size="sm" asChild>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/charu6969/Abook.git" target="_blank" rel="noopener noreferrer">
               <Github className="w-4 h-4" />
               GitHub
             </a>
@@ -87,7 +87,7 @@ const Navbar = () => {
             ))}
             <div className="flex gap-3 pt-2">
               <Button variant="heroOutline" size="sm" className="flex-1" asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/charu6969/Abook.git" target="_blank" rel="noopener noreferrer">
                   <Github className="w-4 h-4" />
                   GitHub
                 </a>

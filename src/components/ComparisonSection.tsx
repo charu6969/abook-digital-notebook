@@ -3,7 +3,7 @@ import { Check, X, Minus } from "lucide-react";
 const comparisonData = [
   {
     feature: "Price",
-    abook: { value: "$0", highlight: true },
+    abook: { value: "$250", highlight: true },
     remarkable: "$299+",
     supernote: "$369+",
     goodnotes: "$9/year",
@@ -108,7 +108,7 @@ const ComparisonSection = () => {
             Comparison
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            See how ABook compares
+            See how Abook compares
           </h2>
           <p className="text-lg text-muted-foreground">
             We stack up well against the most popular digital notebook solutions.
@@ -125,7 +125,7 @@ const ComparisonSection = () => {
                 </th>
                 <th className="text-center py-4 px-4">
                   <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground font-semibold">
-                    ABook
+                    Abook
                   </div>
                 </th>
                 <th className="text-center py-4 px-4 font-medium text-muted-foreground">

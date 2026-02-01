@@ -13,7 +13,7 @@ const Footer = () => {
               <span className="text-primary-foreground font-bold text-lg">A</span>
             </div>
             <span className="text-muted-foreground text-sm">
-              © {currentYear} ABook. MIT License.
+              © {currentYear} Abook. MIT License.
             </span>
           </div>
 
@@ -28,7 +28,7 @@ const Footer = () => {
             <a href="#roadmap" className="hover:text-foreground transition-colors">
               Roadmap
             </a>
-            <a href="https://github.com" className="hover:text-foreground transition-colors">
+            <a href="https://github.com/charu6969/Abook.git" className="hover:text-foreground transition-colors">
               Docs
             </a>
           </div>
@@ -36,7 +36,7 @@ const Footer = () => {
           {/* Social links */}
           <div className="flex items-center gap-4">
             <a 
-              href="https://github.com" 
+              href="https://github.com/charu6969/Abook.git" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-secondary/80 transition-colors"
@@ -52,7 +52,7 @@ const Footer = () => {
               <Twitter className="w-5 h-5 text-foreground" />
             </a>
             <a 
-              href="mailto:hello@abook.dev"
+              href="mailto:charithcharu35794@gmail.com"
               className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-secondary/80 transition-colors"
             >
               <Mail className="w-5 h-5 text-foreground" />
