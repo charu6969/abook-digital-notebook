@@ -54,16 +54,16 @@ const ProblemSection = () => {
             {/* ABook option */}
             <div className="relative p-8 rounded-2xl bg-card border-2 border-primary overflow-hidden group glow">
               <div className="absolute top-0 right-0 px-4 py-2 bg-primary/10 text-primary text-sm font-medium rounded-bl-xl">
-                Free Forever
+                Best Value
               </div>
               <div className="mb-6">
                 <Zap className="w-12 h-12 text-primary" />
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-3">
-                ABook
+                Abook
               </h3>
               <div className="text-5xl font-bold text-primary mb-4">
-                $0
+                $250
               </div>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-center gap-2">

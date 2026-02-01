@@ -20,7 +20,7 @@ const OpenSourceSection = () => {
               Built by the community, for everyone
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              ABook is MIT licensed and completely open source. Inspect the code, 
+              Abook is MIT licensed and completely open source. Inspect the code, 
               contribute features, or fork it for your own needs.
             </p>
           </div>
@@ -49,21 +49,21 @@ const OpenSourceSection = () => {
                   <Github className="w-8 h-8 text-background" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-foreground">abook/abook</h3>
+                  <h3 className="text-xl font-bold text-foreground">charu6969/Abook</h3>
                   <p className="text-muted-foreground">
-                    The $0 digital notebook for everyone
+                    The affordable digital notebook for everyone
                   </p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <Button variant="heroOutline" asChild>
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/charu6969/Abook.git" target="_blank" rel="noopener noreferrer">
                     <Star className="w-4 h-4" />
                     Star
                   </a>
                 </Button>
                 <Button variant="hero" asChild>
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/charu6969/Abook.git" target="_blank" rel="noopener noreferrer">
                     <GitFork className="w-4 h-4" />
                     Fork
                   </a>

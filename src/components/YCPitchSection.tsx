@@ -21,9 +21,9 @@ const metrics = [
   },
   {
     icon: Zap,
-    value: "$0",
+    value: "$250",
     label: "Our price",
-    description: "Forever free",
+    description: "Best value",
   },
 ];
 
@@ -39,10 +39,10 @@ const YCPitchSection = () => {
               For Investors
             </span>
             <h2 className="relative text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why ABook will win
+              Why Abook will win
             </h2>
             <p className="relative text-lg text-muted-foreground max-w-2xl mx-auto">
-              A massive market with a clear pain point, and we're the only free, open-source solution.
+              A massive market with a clear pain point, and we're the most affordable open-source solution.
             </p>
           </div>
 
@@ -73,7 +73,7 @@ const YCPitchSection = () => {
           <div className="p-8 md:p-12 rounded-2xl bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/20 text-center">
             <blockquote className="text-xl md:text-2xl font-medium text-foreground leading-relaxed mb-6">
               "1.4 billion students need affordable digital tools. Premium tablets cost $400+. 
-              <span className="text-primary"> We're building the free alternative </span>
+              <span className="text-primary"> We're building the $250 alternative </span>
               that works on any device."
             </blockquote>
             <div className="flex items-center justify-center gap-4 text-muted-foreground">
