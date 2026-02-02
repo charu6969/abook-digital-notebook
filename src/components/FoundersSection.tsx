@@ -22,7 +22,7 @@ const founders = [
   },
   {
     name: "Dhananjay S",
-    role: "Co-Founder & Hardware Lead",
+    role: "Founder",
     tagline: "Robotics & Embedded Systems Engineer",
     location: "Mysuru, Karnataka, India",
     description:
