@@ -7,6 +7,7 @@ import DemoSection from "@/components/DemoSection";
 import TechStackSection from "@/components/TechStackSection";
 import RoadmapSection from "@/components/RoadmapSection";
 import OpenSourceSection from "@/components/OpenSourceSection";
+import FoundersSection from "@/components/FoundersSection";
 import YCPitchSection from "@/components/YCPitchSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
@@ -24,6 +25,7 @@ const Index = () => {
         <TechStackSection />
         <RoadmapSection />
         <OpenSourceSection />
+        <FoundersSection />
         <YCPitchSection />
         <CTASection />
       </main>
