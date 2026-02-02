@@ -19,6 +19,7 @@ const Navbar = () => {
     { href: "#comparison", label: "Compare" },
     { href: "#demo", label: "Demo" },
     { href: "#roadmap", label: "Roadmap" },
+    { href: "#founders", label: "Founders" },
   ];
 
   return (
