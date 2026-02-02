@@ -25,7 +25,11 @@ const screenshots = [
   },
 ];
 
-const DemoSection = () => {
+interface DemoSectionProps {
+  onOpenDemo: () => void;
+}
+
+const DemoSection = ({ onOpenDemo }: DemoSectionProps) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const nextSlide = () => {
@@ -105,7 +109,7 @@ const DemoSection = () => {
 
           {/* Try demo CTA */}
           <div className="text-center mt-8">
-            <Button variant="hero" size="lg">
+            <Button variant="hero" size="lg" onClick={onOpenDemo}>
               <Play className="w-4 h-4" />
               Launch Interactive Demo
             </Button>
