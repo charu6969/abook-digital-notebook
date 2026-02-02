@@ -3,24 +3,6 @@ import { Button } from "@/components/ui/button";
 
 const founders = [
   {
-    name: "Charith R",
-    role: "Co-Founder & Software Lead",
-    tagline: "ML & Backend Developer · Hackathon Winner",
-    location: "Mysuru, Karnataka, India",
-    description:
-      "Computer Science student passionate about building intelligent systems. Expertise spans machine learning, backend development, and cloud architecture. Winner of 4+ hackathons with production-ready deployments on AWS.",
-    skills: ["Python", "PyTorch", "Node.js", "AWS", "PostgreSQL"],
-    stats: [
-      { label: "Hackathon Wins", value: "4+" },
-      { label: "Projects Built", value: "10+" },
-    ],
-    image: "https://charith-r-portfolio.vercel.app/assets/charith-r-photo.jpg",
-    portfolio: "https://charith-r-portfolio.vercel.app/",
-    github: "https://github.com/charu6969",
-    linkedin: "https://www.linkedin.com/in/charith-r-07060129a",
-    email: "charithcharu35794@gmail.com",
-  },
-  {
     name: "Dhananjay S",
     role: "Founder",
     tagline: "Robotics & Embedded Systems Engineer",
@@ -37,6 +19,24 @@ const founders = [
     github: "#",
     linkedin: "https://www.linkedin.com/in/dhananjay-s-99064030a",
     email: "dharnuju5@gmail.com",
+  },
+  {
+    name: "Charith R",
+    role: "Co-Founder & Software Lead",
+    tagline: "ML & Backend Developer · Hackathon Winner",
+    location: "Mysuru, Karnataka, India",
+    description:
+      "Computer Science student passionate about building intelligent systems. Expertise spans machine learning, backend development, and cloud architecture. Winner of 4+ hackathons with production-ready deployments on AWS.",
+    skills: ["Python", "PyTorch", "Node.js", "AWS", "PostgreSQL"],
+    stats: [
+      { label: "Hackathon Wins", value: "4+" },
+      { label: "Projects Built", value: "10+" },
+    ],
+    image: "https://charith-r-portfolio.vercel.app/assets/charith-r-photo.jpg",
+    portfolio: "https://charith-r-portfolio.vercel.app/",
+    github: "https://github.com/charu6969",
+    linkedin: "https://www.linkedin.com/in/charith-r-07060129a",
+    email: "charithcharu35794@gmail.com",
   },
 ];
 
