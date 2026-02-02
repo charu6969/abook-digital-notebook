@@ -2,7 +2,11 @@ import { Button } from "@/components/ui/button";
 import { Github, Play, ArrowRight } from "lucide-react";
 import tabletHero from "@/assets/tablet-hero.png";
 
-const HeroSection = () => {
+interface HeroSectionProps {
+  onOpenDemo: () => void;
+}
+
+const HeroSection = ({ onOpenDemo }: HeroSectionProps) => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-hero pt-20">
       {/* Background gradient glow */}
@@ -53,7 +57,7 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="animate-fade-up-delay-3 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-              <Button variant="hero" size="xl" className="w-full sm:w-auto group">
+              <Button variant="hero" size="xl" className="w-full sm:w-auto group" onClick={onOpenDemo}>
                 <Play className="w-5 h-5" />
                 Try Demo
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
