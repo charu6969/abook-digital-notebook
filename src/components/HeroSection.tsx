@@ -45,13 +45,18 @@ const HeroSection = ({ onOpenDemo }: HeroSectionProps) => {
             </p>
 
             {/* Stats */}
-            <div className="animate-fade-up-delay-2 flex items-center justify-center lg:justify-start gap-6 mb-8 text-sm text-muted-foreground">
+            <div className="animate-fade-up-delay-2 flex flex-wrap items-center justify-center lg:justify-start gap-4 md:gap-6 mb-8 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <span className="font-semibold text-foreground">1.4B</span> students worldwide
               </div>
-              <div className="w-1 h-1 rounded-full bg-border" />
+              <div className="w-1 h-1 rounded-full bg-border hidden md:block" />
               <div className="flex items-center gap-2">
                 <span className="font-semibold text-foreground">MIT</span> licensed
+              </div>
+              <div className="w-1 h-1 rounded-full bg-border hidden md:block" />
+              <div className="flex items-center gap-1.5 text-green-600">
+                <span>🌱</span>
+                <span className="font-semibold">Eco-Friendly</span>
               </div>
             </div>
 
