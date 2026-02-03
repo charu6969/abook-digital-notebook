@@ -291,26 +291,45 @@ const InteractiveDemo = ({ isOpen, onClose }: InteractiveDemoProps) => {
           </div>
         </div>
 
-        {/* Canvas */}
-        <div className="flex-1 relative bg-[#f5f5f0] overflow-hidden">
-          <canvas
-            ref={canvasRef}
-            className="absolute inset-0 w-full h-full cursor-crosshair touch-none"
-            onMouseDown={startDrawing}
-            onMouseMove={draw}
-            onMouseUp={stopDrawing}
-            onMouseLeave={stopDrawing}
-            onTouchStart={startDrawing}
-            onTouchMove={draw}
-            onTouchEnd={stopDrawing}
-          />
+        {/* Canvas with Remarkable-style frame */}
+        <div className="flex-1 relative overflow-hidden bg-gradient-to-br from-[#d4d4d4] via-[#e8e8e8] to-[#c8c8c8] p-4 md:p-6">
+          {/* Outer frame - aluminum/grey edge */}
+          <div className="w-full h-full rounded-lg bg-gradient-to-br from-[#b0b0b0] via-[#d0d0d0] to-[#a0a0a0] p-[3px] shadow-xl">
+            {/* Inner white bezel */}
+            <div className="w-full h-full rounded-md bg-gradient-to-br from-[#ffffff] via-[#f8f8f8] to-[#ececec] p-3">
+              {/* Paper surface */}
+              <div className="w-full h-full relative bg-[#f5f5f0] rounded-sm shadow-inner overflow-hidden">
+                <canvas
+                  ref={canvasRef}
+                  className="absolute inset-0 w-full h-full cursor-crosshair touch-none"
+                  onMouseDown={startDrawing}
+                  onMouseMove={draw}
+                  onMouseUp={stopDrawing}
+                  onMouseLeave={stopDrawing}
+                  onTouchStart={startDrawing}
+                  onTouchMove={draw}
+                  onTouchEnd={stopDrawing}
+                />
+              </div>
+            </div>
+          </div>
         </div>
 
-        {/* Footer hint */}
-        <div className="px-6 py-3 border-t border-border bg-secondary/30 text-center">
-          <p className="text-sm text-muted-foreground">
-            Draw with your mouse or finger • Use tools above to switch between pen, highlighter, and eraser
-          </p>
+        {/* Footer hint with eco-friendly message */}
+        <div className="px-6 py-3 border-t border-border bg-secondary/30">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-2">
+            <p className="text-sm text-muted-foreground">
+              Draw with your mouse or finger • Use tools above to switch between pen, highlighter, and eraser
+            </p>
+            <div className="flex items-center gap-2 text-sm">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-green-500/10 text-green-600 dark:text-green-400 font-medium">
+                <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M4.5 9a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0ZM8 5.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm7.197 2.803a.75.75 0 0 0-1.061-1.061l-4.5 4.5a.75.75 0 0 0 1.06 1.061l4.5-4.5Z" clipRule="evenodd"/>
+                </svg>
+                🌱 Eco-Friendly • Zero Paper • E-Ink Display
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

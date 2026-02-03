@@ -2,7 +2,11 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Github } from "lucide-react";
 
-const Navbar = () => {
+interface NavbarProps {
+  onOpenDemo?: () => void;
+}
+
+const Navbar = ({ onOpenDemo }: NavbarProps) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -58,7 +62,7 @@ const Navbar = () => {
               GitHub
             </a>
           </Button>
-          <Button variant="hero" size="sm">
+          <Button variant="hero" size="sm" onClick={onOpenDemo}>
             Try Demo
           </Button>
         </div>
@@ -93,7 +97,7 @@ const Navbar = () => {
                   GitHub
                 </a>
               </Button>
-              <Button variant="hero" size="sm" className="flex-1">
+              <Button variant="hero" size="sm" className="flex-1" onClick={() => { setIsMobileMenuOpen(false); onOpenDemo?.(); }}>
                 Try Demo
               </Button>
             </div>
